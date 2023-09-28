@@ -1,0 +1,39 @@
+.popupButton {
+    background-color: transparent;
+    transition-duration: 0.3;
+    padding-inline:12px;
+    margin-inline:4px;
+    transition-duration: 0.5s;
+    transform:scale(1,1);
+    cursor: pointer;
+    /* margin-inline: 10px; */
+}
+.popupButton:hover {
+    background-color: rgb(71, 114, 179);
+    border-radius: 4px;
+    padding:1px;
+    padding-inline:12px;
+    transform:scale(1.025,1.025)
+}
+.popup
+{
+    margin-left: 8px;
+    flex-direction: column;
+    display: flex;
+    padding: 4px;
+    padding-block: 14px;
+    border-radius: 4px;
+    background-color: rgb(23, 24, 26);
+    gap: 1px;
+    color: white;
+    flex-wrap:nowrap;
+    text-overflow:clip;
+}
+.popupText
+{
+    color: white;
+    font-family: "Dejavu", "Courier New", monospace;
+    /* font-family: "Asap", "Courier New", monospace; */
+    font-size: 12px;
+    
+}

@@ -1,0 +1,13 @@
+.fileManagerElement {
+    cursor:pointer;
+    /* background-color: red; */
+}
+.fileManagerElement:hover {
+    background-color: rgba(63, 63, 63, 0.199);
+}
+.fileManagerElementActive {
+    background-color:aqua;
+}
+.fileManagerElementActive:hover {
+    background-color:aqua;
+}

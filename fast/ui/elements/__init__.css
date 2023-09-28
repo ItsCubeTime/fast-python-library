@@ -1,0 +1,25 @@
+.scaleHover:hover {
+    transform: scale(1.13, 1.13);
+}
+.scaleHover:hover {
+    transition-duration: 0.23s;
+}
+.backgroundHover {
+    transition-duration: 0.18s;
+    margin:0.4em;
+    /* height: 20px; */
+}
+.backgroundHover:hover {
+    margin: 0px;
+    background-color: rgb(191,191, 191);
+    mix-blend-mode: multiply;
+    background-size: 200% auto;
+    border-radius: 5px;
+    padding: 0.4em;
+
+}
+
+.rotate180 {
+    transition-duration: 0.13s;
+    transform:rotate(180deg);
+}

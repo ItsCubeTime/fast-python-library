@@ -1,0 +1,3 @@
+from .pkgsAndModules import installPackageIfCorrespondingModuleIsUndefined
+from .pkgsAndModules import installPackage
+from .pkgsAndModules import importModule

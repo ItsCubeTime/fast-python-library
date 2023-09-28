@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "F:\Olliver\Art and development\PythonPathLibraries\fast\console\runCmdViaSocket.py", line 27, in <module>
+    c = fast.console.Console(consoleType=consoleType, elevatedPrivileges=False) #If this process is elevated, subprocess.Popen() should also be
+  File "C:\Users\olliv\AppData\Local\Programs\Python\Python310\lib\site-packages\fast\console\console.py", line 77, in __init__
+    self._p = subprocess.Popen(args, stdout=subprocess.PIPE, stdin=subprocess.PIPE, stderr=subprocess.STDOUT)
+  File "C:\Users\olliv\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\olliv\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1435, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+a!!
