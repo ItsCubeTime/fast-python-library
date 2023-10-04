@@ -8,6 +8,7 @@ Some of the more notable features currently present:
 * Simplified socketing.
 * A pathlib & os wrapper API for handling file manipulation (because I find pathlib's & os module's file system APIs somewhat unintuitive)
 * Various other small & useful functions & classes :)
+* A tool for simplifying uploading packages to PyPi (see `fast.devtools`)
 
 
 Planned:
